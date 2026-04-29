@@ -70,8 +70,8 @@ public:
 
 // Friend function implementation
 bool isSameSize(const Rectangle& r1, const Rectangle& r2) {
-    return (r1.getWidth() == r2.getWidth() &&
-            r1.getHeight() == r2.getHeight());
+    return (r1.getArea() == r2.getArea());
+         
 }
 
 
